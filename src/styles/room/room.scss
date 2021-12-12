@@ -1,0 +1,20 @@
+.room-mode{
+	padding-top: 30px;
+	width: 500px;
+	margin: 0 auto;
+
+	.room-mode-title{
+		font-size: 35px;
+	}
+
+	.begin-btns{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.txt-or{
+			font-size: 18px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+}

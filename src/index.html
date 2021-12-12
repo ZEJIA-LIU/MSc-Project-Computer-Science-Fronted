@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Learn Code Together</title>
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		.loading-wrap {
+			height: 500px;
+			text-align: center;
+			color: #3397E6;
+			font-size: 15px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.loading-wrap p {
+			padding-top: 10px;
+		}
+
+		.loading-img {
+			width: 40px;
+			animation: rotation 1s linear infinite;
+			-webkit-animation: rotation 1s linear infinite;
+		}
+
+		@keyframes rotation {
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@-moz-keyframes rotation {
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@-webkit-keyframes rotation {
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		@-o-keyframes rotation {
+			from {
+				transform: rotate(0deg);
+			}
+
+			to {
+				transform: rotate(360deg);
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<!--[if lt IE 11]><div style="height:80px;line-height:80px;text-align:center;"><strong>浏览器版本过低！建议更换为<a href="https://www.google.cn/intl/zh-CN/chrome/" style="color:#3397E6;">谷歌Chrome浏览器</a>或升级现有浏览器！</strong></div><![endif]-->
+
+	<div id="app">
+		<div class="loading-wrap">
+			<div>
+				<img class="loading-img" src="images/load.png" />
+				<p>loading...</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

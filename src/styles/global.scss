@@ -1,0 +1,82 @@
+$theme-blue: #409EFF;
+
+$lengths: 2 5 10 15 20;
+
+@for $i from 1 through 5
+{
+  .mr-#{nth($lengths, $i)}
+  {
+    margin-right: #{nth($lengths, $i)}px;
+  }
+}
+
+.mb-10{
+	margin-bottom: 10px;
+}
+
+.mb-30{
+	margin-bottom: 30px;
+}
+
+.mt-10{
+	margin-top: 10px;
+}
+
+.mt-15{
+	margin-top: 15px;
+}
+
+.mt-20{
+	margin-top: 20px;
+}
+
+.pb-10{
+	padding-bottom: 10px;
+}
+
+.pt-10{
+	padding-top: 10px;
+}
+
+.ptb-10{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.plr-10{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.float-r{
+	float: right;;
+}
+
+.txt-blue{
+	color: $theme-blue;
+}
+
+.input-btn{
+	display: flex;
+	.input-wrap{
+		flex: 1;
+	}
+	.ant-input{
+		border-radius: 4px 0 0 4px;
+	}
+	.ant-btn{
+		border-radius: 0 4px 4px 0;
+	}
+}
+
+
+// .loadable-loading-wrap{
+// 	height: 500px;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }

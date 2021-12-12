@@ -1,0 +1,39 @@
+h1{
+	margin: 0;
+}
+
+.home-header {
+  height: 48px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+  border-bottom: 1px solid #e8e8e8;
+  background: #fff;
+  min-width: 1200px;
+
+  .home-header-inner{
+		width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.home-title{
+	// font-family: Monospace;
+	color: #409EFF;
+	line-height: 48px;
+	flex: 1;
+
+	.title-name{
+		padding-left: 6px;
+	}
+}
+
+.container-wrap{
+	padding: 30px 0;
+	min-width: 1200px;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
